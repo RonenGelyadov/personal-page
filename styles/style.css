@@ -81,3 +81,20 @@ footer {
   padding: 0;
 
 }
+
+.project > * {
+  margin: 2rem;
+}
+
+.project-img {
+  width: 800px;
+}
+
+.project > p {
+  font-size: larger;
+  text-align: center;
+}
+
+.assets-link {
+  text-decoration: underline;
+}
