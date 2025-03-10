@@ -1,0 +1,70 @@
+body {
+  background: linear-gradient(90deg, #f7ff8f, #9bbcff);
+  background-size: 400% 400%;
+
+  animation: BackgroundAnimation 30s ease infinite;
+
+  align-items: center;
+}
+
+@keyframes BackgroundAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.about {
+  font-size: larger;
+}
+
+#profile-pic {
+  height: 250px;
+}
+
+.main-head {
+  font-family: "Rancho", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav-bar {
+  margin-top: 1rem;
+}
+
+.main-nav {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.back-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.clock {
+  align-self: end;
+}
+
+footer {
+  margin-top: 3rem;
+  margin-top: 3rem;
+  justify-self: flex-end;
+  padding: 0;
+}
