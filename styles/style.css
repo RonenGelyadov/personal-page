@@ -21,10 +21,16 @@ body {
 
 .about {
   font-size: larger;
+  text-align: center;
 }
 
 #profile-pic {
   height: 250px;
+  margin: 0;
+}
+
+.pic-div {
+  margin-bottom: 1rem;
 }
 
 .main-head {
@@ -34,7 +40,7 @@ body {
 }
 
 .nav-bar {
-  margin-top: 1rem;
+  margin-top: 1px;
 }
 
 .main-nav {
@@ -60,11 +66,13 @@ a {
 
 .clock {
   align-self: end;
+  padding: 0 1px 0 0;
 }
 
 footer {
   margin-top: 3rem;
-  margin-top: 3rem;
+  margin-bottom: 3rem;
   justify-self: flex-end;
   padding: 0;
+
 }
