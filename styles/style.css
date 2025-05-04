@@ -64,6 +64,7 @@ body {
 
 .nav-bar {
   margin-top: 2rem;
+  padding: 0;
 }
 
 .nav-bar h3 {
