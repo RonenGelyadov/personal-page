@@ -60,7 +60,11 @@
       </ul>
     </div>
     <footer>
-      <p>Copyright © <span id="copyrightYear"></span></p>
+      <strong><p>Copyright © <span id="copyrightYear"></span></p></strong>
     </footer>
+    <script>
+      const year = new Date().getFullYear();
+      document.getElementById("copyrightYear").innerHTML = year;
+    </script>
   </body>
 </html>
