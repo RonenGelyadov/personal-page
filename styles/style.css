@@ -29,7 +29,7 @@ body {
 
 .about {
   max-width: 800px;
-  padding: 2rem 3rem;
+  padding: 1rem 1rem;
   background-color: rgba(135, 209, 255, 0.3);
   border-radius: 2rem;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
@@ -44,6 +44,7 @@ body {
 .about p {
   font-size: larger;
   text-align: center;
+  margin: 0;
 }
 
 #profile-pic {
@@ -70,6 +71,7 @@ body {
 }
 
 .main-nav {
+  padding: 0;
   margin: 0;
   display: flex;
   flex-direction: row;
