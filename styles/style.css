@@ -37,6 +37,11 @@ body {
   text-align: center;
 }
 
+hr {
+  border-top: 0.5rem dotted rgb(0, 119, 255);
+  margin: 3rem 2rem 2rem 2rem;
+}
+
 .about h4 {
   font-weight: 600;
 }
@@ -86,7 +91,8 @@ a {
   color: black;
 }
 
-.main-nav a {
+.main-nav a,
+.play {
   background-color: rgba(0, 195, 255, 0.5);
   padding: 1rem;
   color: black;
@@ -94,7 +100,8 @@ a {
   transition: background-color 0.3s, color 0.3s;
 }
 
-.main-nav a:hover {
+.main-nav a:hover,
+.play:hover {
   background-color: rgb(0, 110, 255);
   color: white;
 }
@@ -157,4 +164,51 @@ footer {
 
 .contact-content a {
   color: rgb(0, 119, 255);
+}
+
+.projects-content {
+  max-width: 800px;
+  padding: 2rem 0;
+  background-color: rgba(135, 209, 255, 0.3);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.project {
+  margin: 2rem 0 2rem 0;
+}
+
+.project h2 {
+  font-weight: 600;
+}
+
+.project > a {
+  font-weight: 600;
+  font-size: larger;
+}
+
+.project-info {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.project-info ul a {
+  color: rgb(0, 119, 255);
+}
+
+.project-info ul {
+  text-align: left;
+  font-size: large;
+}
+
+.project-img {
+  max-width: 50%;
+  border-radius: 5%;
+  box-shadow: 0.5rem 0.5rem 1rem;
 }
