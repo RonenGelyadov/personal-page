@@ -10,6 +10,9 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   align-items: center;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 @keyframes BackgroundAnimation {
@@ -25,6 +28,20 @@ body {
 }
 
 .about {
+  max-width: 800px;
+  padding: 2rem 3rem;
+  background-color: rgba(135, 209, 255, 0.3);
+  border-radius: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.about h4 {
+  font-weight: 600;
+}
+
+.about p {
   font-size: larger;
   text-align: center;
 }
@@ -45,7 +62,11 @@ body {
 }
 
 .nav-bar {
-  margin-top: 1px;
+  margin-top: 2rem;
+}
+
+.nav-bar h3 {
+  font-weight: 600;
 }
 
 .main-nav {
@@ -60,6 +81,19 @@ body {
 a {
   text-decoration: none;
   color: black;
+}
+
+.main-nav a {
+  background-color: rgba(0, 195, 255, 0.5);
+  padding: 1rem;
+  color: black;
+  border-radius: 2rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.main-nav a:hover {
+  background-color: rgb(0, 110, 255);
+  color: white;
 }
 
 .back-header {
@@ -84,7 +118,7 @@ footer {
 .resume-content {
   max-width: 800px;
   padding: 2rem 3rem;
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(135, 209, 255, 0.3);
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
   margin: 2rem auto;
@@ -92,7 +126,7 @@ footer {
 }
 
 .resume-content a {
-  color: blue;
+  color: rgb(0, 119, 255);
 }
 
 .resume-content section {
@@ -102,4 +136,22 @@ footer {
 
 .resume-content section h2 {
   text-decoration: underline;
+}
+
+.contact-content {
+  max-width: 800px;
+  padding: 2rem 3rem;
+  background-color: rgba(135, 209, 255, 0.3);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.contact-content p {
+  font-size: large;
+}
+
+.contact-content a {
+  color: rgb(0, 119, 255);
 }
